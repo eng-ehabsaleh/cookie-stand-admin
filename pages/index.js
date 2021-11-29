@@ -13,17 +13,17 @@ export default function Home() {
         </header>
       <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center bg-green-100">
 		  <form className="bg-green-300 w-9/12 h-52 justify-center">
-			  <legend className="object-top py-4">Cookie Stand Admin</legend>
+			  <legend className="object-top py-4 font-medium">Cookie Stand Admin</legend>
 			  <label className="object-left pr-4">Location</label>
 			  <input className="w-11/12 "></input>
-			  <div className="px-4.5">
-			  <label>Minimun Customer per Hour</label>
-			  <label>Maximum Customer per Hour</label>
-			  <label>Average Cookie per Sale</label>
+			  <div >
+			  <label className="mx-4 p-0 justify-center">Minimun Customer per Hour</label>
+			  <label className="mx-8 justify-center">Maximum Customer per Hour</label>
+			  <label className="mx-8 justify-center">Average Cookie per Sale</label>
 			  </div>
-			  <input></input>
-			  <input></input>
-			  <input></input>
+			  <input className="mx-12"></input>
+			  <input className="mx-12"></input>
+			  <input className="mx-12"></input>
 			  <button className="bg-green-500">Create</button>
 		  </form>
       </main>
